@@ -2,7 +2,9 @@
 
 A simple Python script that lets you create images with any achievements in Minecraft style.
 
+---
 ![image](https://github.com/NastyaNoTamashii/Minecraft-Achievement-Generator/blob/main/achievements/pizza_time!.png?raw=true)
+---
 ![image](https://github.com/NastyaNoTamashii/ ... /preview.png?raw=true)
 
 ## Download using git
