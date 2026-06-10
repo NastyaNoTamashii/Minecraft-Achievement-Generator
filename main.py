@@ -19,27 +19,27 @@ init()
 
 # MINECRAFT COLORS
 colors = {
-    "§0": "#000000",
-    "§1": "#0000AA",
-    "§2": "#00AA00",
-    "§3": "#00AAAA",
-    "§4": "#AA0000",
-    "§5": "#AA00AA",
-    "§6": "#FFAA00",
-    "§7": "#AAAAAA",
-    "§8": "#555555",
-    "§9": "#5555FF",
-    "§a": "#55FF55",
-    "§b": "#55FFFF",
-    "§c": "#FF5555",
-    "§d": "#FF55FF",
-    "§e": "#FFFF55",
-    "§f": "#FFFFFF"
+    "&0": "#000000",
+    "&1": "#0000AA",
+    "&2": "#00AA00",
+    "&3": "#00AAAA",
+    "&4": "#AA0000",
+    "&5": "#AA00AA",
+    "&6": "#FFAA00",
+    "&7": "#AAAAAA",
+    "&8": "#555555",
+    "&9": "#5555FF",
+    "&a": "#55FF55",
+    "&b": "#55FFFF",
+    "&c": "#FF5555",
+    "&d": "#FF55FF",
+    "&e": "#FFFF55",
+    "&f": "#FFFFFF"
 }
 
 def achievememnt_maker(
         title: str,
-        color: str, # §0-§f
+        color: str, # &0-&f
         description: str,
         icon: str
         ):
@@ -61,7 +61,7 @@ def achievememnt_maker(
         return
     
     if not color or color == "":
-        color = "§e"
+        color = "&e"
     
     if color in colors:
         color = colors[color]
@@ -96,7 +96,7 @@ if __name__ == "__main__":
     print(BANNER)
 
     title = input("Achievement title (max 18 characters): ")
-    color = input("Title Color (Minecraft colors §0-§f or Hex): ")
+    color = input("Title Color (Minecraft colors &0-&f or Hex): ")
     description = input("Achievement description (max 25 characters): ")
     icon = input("Icon ID: ")
 
