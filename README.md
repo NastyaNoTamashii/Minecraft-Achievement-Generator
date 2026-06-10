@@ -17,9 +17,13 @@ git clone https://github.com/NastyaNoTamashii/Minecraft-Achievement-Generator.gi
 
 1. If you don't have python installed, download python and make sure you select the 'ADD TO PATH' option during installation.
 
-2. Install required modules > `pip install -r requirements.txt`
+2. After downloading the repository, extract the icons.zip archive in the project folder. Ensure that the folder structure looks like this: MinecraftAchievement/icons/ (the folder icons must contain the .png files).
 
-3. Enter `python3 main.py` in terminal for script run
+3. Install required modules > `pip install -r requirements.txt`
 
-4. In the terminal
+4. Enter `python3 main.py` in terminal for script run
+   Note: If python3 command is not found, try using python main.py.
+
+5. Once the script starts, simply enter the requested values (title, color, description, and icon ID) in the terminal, and your achievement image will be generated!
+
 ## Notation
