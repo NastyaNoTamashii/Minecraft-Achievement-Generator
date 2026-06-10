@@ -2,6 +2,7 @@
 
 A simple Python script that lets you create images with any achievements in Minecraft style.
 
+![image](https://github.com/NastyaNoTamashii/Minecraft-Achievement-Generator/achievements/pizza_time!.png?raw=true)
 ![image](https://github.com/NastyaNoTamashii/ ... /preview.png?raw=true)
 
 ## Download using git
@@ -16,7 +17,7 @@ git clone https://github.com/NastyaNoTamashii/Minecraft-Achievement-Generator.gi
 
 2. Install required modules > `pip install -r requirements.txt`
 
-3. Enter `python user_finder.py` in terminal for script run or select `start.bat`
+3. Enter `python3 main.py` in terminal for script run
 
 4. In the terminal
 ## Notation
