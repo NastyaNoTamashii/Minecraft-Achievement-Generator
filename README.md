@@ -26,4 +26,5 @@ git clone https://github.com/NastyaNoTamashii/Minecraft-Achievement-Generator.gi
 
 5. Once the script starts, simply enter the requested values (title, color, description, and icon ID) in the terminal, and your achievement image will be generated!
 
-## Notation
+## Colors
+![image](https://github.com/NastyaNoTamashii/Minecraft-Achievement-Generator/blob/main/colors.png?raw=true)
